@@ -101,9 +101,13 @@ female_heights <- GaltonFamilies%>%
   select(mother, childHeight) %>%     
   rename(daughter = childHeight)
 
-average(female_heights$mother)
+mean(female_heights$mother)
+sd(female_heights$mother)  
+
+mean(female_heights$daughter)
+sd(female_heights$daughter) 
   
-  
+cor(female_heights$mother, female_heights$daughter)
   
   
   
