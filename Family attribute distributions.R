@@ -109,7 +109,7 @@ sd(female_heights$daughter)
   
 cor(female_heights$mother, female_heights$daughter)
   
-  
+mean(female_heights$mother)
   
   
   
